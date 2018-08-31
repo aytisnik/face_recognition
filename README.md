@@ -15,7 +15,7 @@ To install necessary requirements, run:
 ```
 $ pip install -r requirements.txt
 ```
-Download Caltech's modified Faces 1999 datasets from the links [caltechfaces](https://drive.google.com/open?id=1mTGAPW878JloiQ45i1g-SBx1Q7TJecta) and [caltechfaces_cropped](https://drive.google.com/open?id=1CGb5r0bMvM9pOWo8sPof1yOuL9U-qO19) and put the files in the directories with the same name in the working directory. You can download The Yale Face Dataset from its official source. Alternatively, you can download the original Faces 1999 dataset and modify it according to the [Instructions](https://github.com/aytisnik/face_recognition/blob/master/README.md#instructions) below.
+You can download Caltech's modified Faces 1999 datasets from the links [caltechfaces](https://drive.google.com/open?id=1mTGAPW878JloiQ45i1g-SBx1Q7TJecta) and [caltechfaces_cropped](https://drive.google.com/open?id=1CGb5r0bMvM9pOWo8sPof1yOuL9U-qO19) and put the datasets in the working directory. You can download The Yale Face Dataset from its official source. Alternatively, you can download the original Faces 1999 dataset and modify it according to the [Instructions](https://github.com/aytisnik/face_recognition/blob/master/README.md#instructions) below.
 
 ### Details
 
@@ -24,8 +24,6 @@ Download Caltech's modified Faces 1999 datasets from the links [caltechfaces](ht
 - **cropfaces.py** : detection and cropping of faces from the images in the dataset
 - **main.py** : building, training and testing the model 
 - **weights** : directory of saved weights
-- **caltechfaces** : directory of Caltech's Faces 1999 dataset (modified).
-- **caltechfaces_cropped** : directory of cropped faces retrieved from Caltech's Faces 1999 dataset.
 - **yalefaces** : directory of The Yale Face Dataset.
 
 #### Network model
@@ -53,7 +51,7 @@ _________________________________________________________________
 
 ### Instructions
 
-- Labelling of the images in the dataset: 
+- Labelling of the images in the dataset (not applicable for The Yale Face Dataset, it has been handled separately): 
   ```
   "image" + str(class_number) + "_" + str(image_number) + extension
   ```
