@@ -24,7 +24,6 @@ You can download Caltech's modified Faces 1999 datasets from the links [caltechf
 - **cropfaces.py** : detection and cropping of faces from the images in the dataset
 - **main.py** : building, training and testing the model 
 - **weights** : directory of saved weights
-- **yalefaces** : directory of The Yale Face Dataset.
 
 #### Network model
 ```
@@ -51,7 +50,7 @@ _________________________________________________________________
 
 ### Instructions
 
-- Labelling of the images in the dataset (not applicable for The Yale Face Dataset, it has been handled separately): 
+- Labelling of the images in the dataset:
   ```
   "image" + str(class_number) + "_" + str(image_number) + extension
   ```
@@ -74,6 +73,7 @@ _________________________________________________________________
   ```
   $ python main.py -d caltechfaces_cropped -c 26 -s -1 -l -1 -w weights
   ```
+- Note: The labelling instructions is not applicable for the Yale Face Dataset. It has been handled separately and was the data was put in a directory named `yalefaces`.
 
 ## Results 
 
