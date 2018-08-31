@@ -1,0 +1,7 @@
+keras
+opencv-contrib-python
+numpy
+scipy
+scikit-image
+scikit-learn
+argparse
