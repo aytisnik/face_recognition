@@ -56,10 +56,10 @@ _________________________________________________________________
   Example: `image16_02600.jpg`
 
 
-- Run **`$ python cropfaces.py -d <directory\_name>`** to detect and crop faces from the dataset if the faces in the dataset are not cropped, where `<directory_name>` is the pathname of the dataset.
+- Run **`$ python cropfaces.py -d <directory_name>`** to detect and crop faces from the dataset if the faces in the dataset are not cropped, where `<directory_name>` is the pathname of the dataset.
   - This command puts cropped faces into a new directory named as `"<directory_name>" + "_cropped"`.
  
-- Run **`$ python main.py -d <directory\_name> -c <num\_classes>`**, where `<directory_name>` is the pathname of the dataset, `<num_classes>` is the number of classes in this dataset. 
+- Run **`$ python main.py -d <directory_name> -c <num_classes>`**, where `<directory_name>` is the pathname of the dataset, `<num_classes>` is the number of classes in this dataset. 
   - Optional arguments:
     * `-e` : number of epochs. (default=20)
     * `-s` : whether or not the model should be saved on the disk. (default=-1)
