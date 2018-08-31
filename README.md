@@ -11,6 +11,11 @@ This project aims to implement the face recognition system presented in the pape
 - Keras
 - OpenCV for Python
 
+To install necessary requirements, run:
+```
+$ pip install -r requirements.txt
+```
+
 ### Details
 
 - **cnn.py** : implementation of the network model
@@ -71,7 +76,9 @@ _________________________________________________________________
   $ python main.py -d caltechfaces_cropped -c 26 -s -1 -l -1 -w weights
   ```
 
-## Results
+## Results 
+
+The performance scores stated have been the results of experiments on _MacBook Retina 12-inch, Early 2015_ with _1.1 GHz Intel Core M_ processor and _8 GB 1600 MHz DDR3_ RAM.
 
 The model has been trained on 2 datasets separately: _The Yale Face Dataset_ and Caltech's _Faces 1999_. 
 - for _The Yale Face Dataset_, 2 pictures from each class (pictures with extension `.wink` and `.sad`) were used as test data, the rest (9 images for each class) were used as training data. 
