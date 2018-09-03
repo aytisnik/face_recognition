@@ -2,9 +2,7 @@
 
 This project aims to implement the face recognition system presented in the paper *Face Recognition using Convolutional Neural Network and Simple Logistic Classifier* (Hurieh Khalajzadeh et.al.).
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - Python 2.7
 - MacOS or Linux (not tested on a Windows machine) 
@@ -17,7 +15,7 @@ $ pip install -r requirements.txt
 ```
 You can download Caltech's modified Faces 1999 datasets from the links [caltechfaces](https://drive.google.com/open?id=1mTGAPW878JloiQ45i1g-SBx1Q7TJecta) and [caltechfaces_cropped](https://drive.google.com/open?id=1CGb5r0bMvM9pOWo8sPof1yOuL9U-qO19) and put the datasets in the working directory. You can download The Yale Face Dataset from its official source. Alternatively, you can download the original Faces 1999 dataset and modify it according to the [Instructions](https://github.com/aytisnik/face_recognition/blob/master/README.md#instructions) below.
 
-### Details
+## Details
 
 - **cnn.py** : implementation of the network model
 - **helper.py** : implementation of helper functions used in main.py
@@ -25,7 +23,7 @@ You can download Caltech's modified Faces 1999 datasets from the links [caltechf
 - **main.py** : building, training and testing the model 
 - **weights** : directory of saved weights
 
-#### Network model
+### Network model
 ```
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -48,7 +46,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-### Instructions
+## Instructions
 
 - Labelling of the images in the dataset:
   ```
