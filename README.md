@@ -92,6 +92,7 @@ The model has been trained on 2 datasets separately: _The Yale Face Dataset_ and
 - **Important note**: _Faces 1999_ dataset has been slightly modified such that classes with only one image have been eliminated, and all images have been renamed to include class labels for the ease of parsing. In addition, HaarCascadeClassifier has been utilized to detect and crop faces from the images. However, the classifier categorized some non-face objects as faces which later have been manually removed from the input data.
 
 ## Authors 
+* Zumrud Shukurlu
 
 ## Helpful Resources
 
